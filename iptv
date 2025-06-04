@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Venda IPTV - Teste 6 Horas</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    
+    body {
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 30px 15px;
+      overflow-x: hidden;
+    }
+    
+    header {
+      margin-bottom: 40px;
+      text-align: center;
+      animation: fadeInDown 1s ease forwards;
+    }
+    
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+      letter-spacing: 2px;
+      text-shadow: 2px 2px 8px #000;
+    }
+    
+    header p {
+      font-size: 1.1rem;
+      color: #b0d9ff;
+    }
+    
+    @keyframes fadeInDown {
+      0% { opacity: 0; transform: translateY(-30px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    
+    main {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      padding: 30px 40px;
+      width: 100%;
+      max-width: 400px;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.4);
+      animation: fadeInUp 1s ease forwards;
+    }
+    
+    @keyframes fadeInUp {
+      0% { opacity: 0; transform: translateY(30px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    
+    .plan {
+      background: #007aff;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 6px 20px rgba(0, 122, 255, 0.7);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+    }
+    
+    .plan:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 30px rgba(0, 122, 255, 1);
+    }
+    
+    .plan h2 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+      letter-spacing: 1.2px;
+    }
+    
+    .plan p {
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+    }
+    
+    .price {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 20px;
+      color: #ffdd57;
+      text-shadow: 1px 1px 5px #b38600;
+    }
+    
+    .btn-whatsapp {
+      display: inline-flex;
+      align-items: center;
+      background: #25D366;
+      color: #fff;
+      padding: 12px 25px;
+      font-size: 1.1rem;
+      border-radius: 50px;
+      font-weight: 600;
+      text-decoration: none;
+      box-shadow: 0 6px 20px rgba(37, 211, 102, 0.7);
+      transition: background 0.3s ease;
+    }
+    
+    .btn-whatsapp:hover {
+      background: #1ebe5d;
+      box-shadow: 0 8px 25px rgba(27, 190, 93, 1);
+    }
+    
+    .btn-whatsapp svg {
+      margin-right: 12px;
+      width: 24px;
+      height: 24px;
+      fill: #fff;
+    }
+    
+    foo
